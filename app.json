@@ -1,0 +1,13 @@
+{
+  "name": "starterproject",
+  "displayName": "starter_project",
+  "expo": {
+    "name": "starter_project",
+    "slug": "starter_project",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.anonymous.starter_project"
+    }
+  }
+}
