@@ -7,7 +7,22 @@
     "version": "1.0.0",
     "assetBundlePatterns": ["**/*"],
     "android": {
-      "package": "com.anonymous.starter_project"
+      "package": "com.anonymous.starter_project",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.starterproject",
+      "supportsTablet": true
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/your-project-id"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
